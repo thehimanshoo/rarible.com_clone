@@ -1,0 +1,206 @@
+.top_collection_handle{
+    margin-top: 127px;
+}
+
+.button_group{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: row nowrap;
+    -moz-box-align: stretch;
+    align-items: stretch;
+    width: fit-content;
+    position: relative;
+    margin: auto;
+}
+
+.button_items{
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    transition: all 0.15s ease-in-out 0s;
+    border-radius: 14px;
+    background: rgb(25, 28, 31) none repeat scroll 0 0;
+}
+
+.each_button{
+    -moz-box-pack: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    transition: all 0.15s ease-in-out 0s;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: auto;
+    background: transparent;
+    border: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.each_button:not(:disabled):hover,
+.each_button:not(:disabled):focus {
+    color: rgb(255, 255, 255);
+    background: transparent none repeat scroll 0 0;
+}
+
+.day_span{
+    font-family: inherit;
+    font-weight: 700;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 15px;
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.ethereum_holder{
+    display: flex;
+    justify-content: right;
+}
+
+.Collection_holder{
+    display: flex;
+    justify-content: left;
+    margin-left: 110px;
+}
+
+/* --------------------- NFT Image Button ---------------------- */
+
+.button_handler{
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    line-height: normal;
+    vertical-align: inherit;
+    color: inherit;
+    overflow: visible;
+}
+
+.class_1{
+    -moz-box-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    border-width: 0;
+    margin-left: 105px;
+    padding: 25px 20px;
+}
+
+.class_1:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.span_1{
+    color: rgba(255, 255, 255, 0.85);
+    text-align: left;
+    margin-right: 20px;
+}
+
+.class_2{
+    width: 24%;
+    height: 56px;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-basis: auto;
+    display: flex;
+    -moz-box-align: stretch;
+    align-items: stretch;
+}
+
+.NFT_image{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    vertical-align: inherit;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    font: inherit;
+    border-radius: 15px;
+}
+
+.nft_details_handler{
+    display: flex;
+    width: 76%;
+    margin-left: 25px;
+}
+
+.inner_nft_details_handler{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.part_1{
+    justify-content: left;
+    align-items: center;
+}
+
+.part_2{
+    justify-content: right;
+    align-items: center;
+}
+
+.Eth_position{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.floor_eth{
+    color: rgba(255, 255, 255, 0.6);
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.increment_position{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.increment{
+    color: rgb(40, 184, 51);
+    white-space: nowrap;
+    font-size: 13px;
+    justify-content: right;
+}
+.decrement{
+    color: rgb(233, 73, 73);
+    white-space: nowrap;
+    font-size: 13px;
+    justify-content: right;
+}
+
+.collection_button{
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: black;
+    background: white;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.collection_button:hover{
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: black;
+    background: white;
+    font-weight: bolder;
+    align-items: center;
+    cursor: pointer;
+}

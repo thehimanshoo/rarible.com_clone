@@ -1,0 +1,337 @@
+
+/* --------------- 01_Navbar Styled Class --------------- */
+.main_navbar{
+    position:sticky;
+    top:0;
+    width:100%;
+    z-index: 200;
+    background: #191C1F;
+    margin-top: 25px;
+    padding: 20px;
+
+}
+
+.navbar_Custom{
+
+    border: none;
+}
+
+.html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,
+i, center, dl, dt, dd, menu, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section,
+summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    background-color: transparent;
+    box-sizing: border-box;
+    outline: currentcolor none medium;
+}
+
+.navbar{
+    box-shadow: none !important;
+}
+
+.class_one{
+    transition: all 0.15s ease-in-out 0s;
+    transform-origin: center center 0;
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-basis: auto;
+    display: flex;
+}
+
+.class_two{
+    /*border: 2px solid red;*/
+    height: 54px;
+    width: 100%;
+    flex-flow: row nowrap;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+    -moz-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    display: flex;
+    margin-left: 50px;
+    box-sizing: border-box;
+    outline: currentcolor none medium;
+}
+
+.class_three{
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    overflow: hidden;
+    transform: translateZ(0px);
+    background: rgb(254, 218, 3) none repeat scroll 0 0;
+
+    /*border-style: solid;*/
+    /*border-color: rgb(255, 255, 255);*/
+}
+
+.class_three:hover{
+    font-family: arial black, serif;
+    font-size:45px;
+    background-image:
+            repeating-linear-gradient(to bottom, rgb(255, 115, 86) 0%,
+            rgb(255, 89, 226) 25.52%,
+            rgb(82, 221, 246) 50%,
+            rgb(234, 223, 78) 76.04%,
+            rgb(255, 115, 86) 100% );
+    background-repeat: repeat;
+    background-size: 10px;
+    /*background-image:*/
+    /*        linear-gradient(to right, rgb(255, 115, 86) 0%,*/
+    /*        rgb(255, 89, 226) 25.52%,*/
+    /*        rgb(82, 221, 246) 50%,*/
+    /*        rgb(234, 223, 78) 76.04%,*/
+    /*        rgb(255, 115, 86) 100% );*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: multi-color 35s linear infinite;
+    border: 2px solid white;
+}
+
+@keyframes multi-color {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+.class_four{
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    z-index: 1;
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-basis: auto;
+    display: flex;
+
+    box-sizing: border-box;
+    outline: currentcolor none medium;
+}
+
+.navbar_logo{
+    width: 150px;
+    height: 110px;
+    margin-left: 40px;
+    background: transparent;
+}
+
+.logo_color{
+    font-size: 14px;
+    height: 55px;
+    width: 90px;
+    margin-left: 15px;
+}
+
+.connect_wallet_btn{
+    border-radius: 12px;
+    margin-right: 12px;
+    font-weight: 400;
+    color: black;
+    font-size: 16px;
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    position: relative;
+    white-space: nowrap;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px 25px;
+    min-width: auto;
+    border: 1px solid transparent;
+}
+
+.connect_wallet_btn:hover{
+    color: black;
+}
+
+.dott{
+    font-weight: bold;
+    letter-spacing: .2rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    background: black;
+    color: white;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.button_collection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* --------------- 02_Header Styled Class --------------- */
+
+.multi_color {
+    font-weight: bolder;
+    text-align: center;
+    font-size:60px;
+    background-image:
+            linear-gradient(to right, rgb(255, 115, 86) 0%,
+            rgb(255, 89, 226) 25.52%,
+            rgb(82, 221, 246) 50%,
+            rgb(234, 223, 78) 76.04%,
+            rgb(255, 115, 86) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: multi-color 35s linear infinite;
+}
+
+@keyframes multi-color {
+    to {
+        background-position: 1000vh;
+    }
+}
+
+.community_handler{
+    font-weight: bold;
+    margin-top: 60px;
+    color: white;
+    font-size: 50px;
+}
+
+.search_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.search_icon:hover{
+    background: transparent;
+}
+
+.NFT_button{
+    background: transparent;
+    margin-right: 20px;
+    margin-top: -20px;
+    color: white;
+    padding: 13px 16px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.NFT_button:hover{
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+
+/* --------------- 03_Spotlight_Project. Projects you'll love --------------- */
+.Spotlight_handler{
+    margin-left: -25px;
+}
+.spotlight{
+    color: floralwhite;
+}
+.spotlight_next{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* --------------- Carousel Customized Style --------------- */
+
+.img-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    transform: translateZ(0px);
+    object-fit: cover;
+    transition: all 0.15s ease-in-out 0s;
+    border-radius: 16px;
+    border: 20px solid white !important;
+}
+
+.tales{
+    height: 400px !important;
+    width: 400px !important;
+    overflow: scroll;
+}
+
+.main_handler{
+    width: 140%;
+    margin-left: -200px !important;
+}
+
+.Carousel_handler{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    min-width: 25%;
+    padding: 0 40px 0 20px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 -40px;
+    mask-image: linear-gradient(to left, transparent, black 40px, black calc(100% - 40px), transparent);
+}
+
+.carousel-image-parent{
+    width: 100%;
+    border: 1.8px solid rgba(255, 255, 255, 0.08);
+    background: rgba(25, 28, 31) none repeat scroll 0 0;
+}
+
+.carousel-child{
+    width: inherit;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 2px solid red;
+}
+
+.NFT_image_handler{
+    height: 100%;
+    width: 100%
+}
+
+
+/* -----------------------------  Wallet Address Section ----------------------------- */
+
+.card{
+    background: transparent !important;
+    text-align: center !important;
+    font-weight: bolder !important;
+}

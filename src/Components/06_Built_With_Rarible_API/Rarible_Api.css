@@ -1,0 +1,236 @@
+.parent_handler{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    -moz-box-align: center;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgb(40, 44, 75);
+    overflow: scroll;
+    margin-top: 135px;
+}
+
+.main_parent{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    padding: 0 32px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parent{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    position: -ms-device-fixed;
+}
+
+.left_content_handler{
+    margin-left: 0;
+    position: -ms-device-fixed;
+}
+
+.built{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    vertical-align: inherit;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.rarible{
+    position: relative;
+    display: inline-block;
+    transition: all 0.15s ease-in-out 0s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    vertical-align: inherit;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.about{
+    margin-top: 35px;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    vertical-align: inherit;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.button_handler{
+    transition: all 0.15s ease-in-out 0s;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.access_button{
+    border-color: rgb(255, 255, 255);
+    color: rgb(25, 28, 31);
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    position: relative;
+    white-space: nowrap;
+    line-height: 48px;
+    height: 48px;
+    width: 55%;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: inherit;
+    transition: all 0.15s ease-in-out 0s;
+    transform-origin: center center 0;
+    user-select: none;
+}
+
+.access_button:hover{
+    border-color: rgb(255, 255, 255);
+    color: rgb(25, 28, 31);
+    background: rgb(255, 255, 255) none repeat scroll 0 0;
+}
+
+/* ------------------  Sibling Section / NFT Button Section ---------------------- */
+.anchor_parent{
+    width: 332px;
+}
+
+.anchor{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    color: rgb(255, 255, 255);
+    transition: all 0.15s ease-in-out 0s;
+    will-change: transform;
+    border-radius: 14px;
+}
+
+.parent_custom{
+    width: 80%;
+    overflow: scroll;
+}
+
+.card_handler{
+    width: 80%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.each_nft{
+    position: relative;
+    border-radius: 18px;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 8px;
+    transition: opacity 0.33s ease-in-out 0s;
+}
+
+.nft_name{
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+}
+
+.nft_details{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    vertical-align: inherit;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 350px;
+}
+
+/* ------------------  Sibling Section / NFT Other Info Section ---------------------- */
+.other_info{
+    flex-flow: row nowrap;
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-basis: auto;
+    display: flex;
+    -moz-box-align: stretch;
+    align-items: stretch;
+    margin: 8px 8px 20px;
+}
+
+.bottom_section{
+    margin-right: 16px;
+    padding-right: 16px;
+    border-color: rgb(255,255,255);
+    max-width: 100%;
+    min-height: 0;
+    min-width: 0;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    flex-basis: auto;
+    -moz-box-align: stretch;
+    align-items: stretch;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.vol{
+    margin-bottom: 2px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.price{
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    vertical-align: inherit;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.bottom_right_section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.floor{
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow_pointer{
+    cursor: pointer;
+    color: white;
+    padding: 0 25px;
+    background: transparent;
+}
+
+.arrow_pointer:hover{
+    color: white;
+    transform: translateX(0px);
+    border-radius: 10px;
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+    padding: 10px 25px;
+}

@@ -1,0 +1,102 @@
+.popular_main{
+    margin-top: 100px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-direction: row;*/
+    /*overflow-x: scroll;*/
+}
+
+.popular_categories_handler{
+    margin-bottom: 40px;
+}
+
+.popular_categories{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+}
+
+/*.Carousel_parent{*/
+/*    display: flex;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    padding: 0 40px 0 20px;*/
+/*    overflow: hidden;*/
+/*    margin: 0 -40px;*/
+/*    mask-image: linear-gradient(to left, transparent, black 40px, black calc(100% - 40px), transparent);*/
+/*    overflow-x: scroll;*/
+/*}*/
+
+/*.image_parent{*/
+/*    margin-bottom: 20px;*/
+/*    margin-top: 20px;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: unset;*/
+/*    text-align: center;*/
+/*    background: transparent;*/
+/*}*/
+
+/*.nft_design{*/
+/*    transform: translateY(-4px);*/
+/*    background: rgba(255, 255, 255, 0.08) none repeat scroll 0 0;*/
+/*    display: flex;*/
+/*    -moz-box-flex: 1;*/
+/*    flex-grow: 1;*/
+/*    border-radius: 14px;*/
+/*    position: relative;*/
+/*    transition: all 0.15s ease-in-out 0s;*/
+/*    overflow: hidden;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.nft_design:hover{*/
+/*    color: rgb(255, 255, 255);*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.html, body, div, span, applet, object{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0 none;*/
+/*    font: inherit;*/
+/*}*/
+
+.card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    overflow: hidden;
+}
+
+.inner_card_holder{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image_holder{
+    border-radius: 20px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.08) none repeat scroll 0 0;
+}
+
+.name_handler{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.image_name{
+    font-size: 22px;
+    /*line-height: 28px;*/
+    font-weight: 700;
+    margin-left: 24px;
+    color: rgb(255, 255, 255);
+}
